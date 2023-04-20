@@ -1,4 +1,4 @@
-#include "main.h"
+#include "variadic_functions.h"
 
 /**
  * main - check the code
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    _print_rev_recursion("\nColton Walker");
+    print_strings(", ", 2, "Jay", "Django");
     return (0);
 }
